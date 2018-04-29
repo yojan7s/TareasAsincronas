@@ -24,8 +24,8 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder> {
     List<Post> postsList = new ArrayList<>();
     Context context;
 
-    public PostAdapter(List<Post> countryList, Context context) {
-        this.postsList = postsList;
+    public PostAdapter(List<Post> M, Context context) {
+        this.postsList = M;
         this.context = context;
     }
 

@@ -56,8 +56,8 @@ public class PostActivity  extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
     }
 
-    public void showPost(View view){
-        Intent intent = new Intent(PostActivity.this, PostActivity.class);
+    public void showCountry(View view){
+        Intent intent = new Intent(PostActivity.this, MainActivity.class);
         startActivity(intent);
     }
 
